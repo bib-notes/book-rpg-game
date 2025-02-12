@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="180"
+   viewBox="0 0 180 180"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="add.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title5974">TiledMapEditor </title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#969696"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="85.55992"
+     inkscape:cy="78.488852"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     shape-rendering="crispEdges" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-16.00047,-14.40547)">
+    <rect
+       style="fill:#616bdd;fill-opacity:1;stroke:#000000;stroke-width:1.41732;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1514"
+       width="43.77174"
+       height="43.77174"
+       x="23.11413"
+       y="23.11413"
+       inkscape:label="top_left" />
+    <rect
+       style="fill:#616bdd;fill-opacity:1;stroke:#000000;stroke-width:1.41732;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1646"
+       width="43.77174"
+       height="43.77174"
+       x="68.114128"
+       y="23.11413"
+       inkscape:label="center_top" />
+    <rect
+       style="fill:#616bdd;fill-opacity:1;stroke:#000000;stroke-width:1.41732;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1648"
+       width="43.77174"
+       height="43.77174"
+       x="113.11413"
+       y="23.11413"
+       inkscape:label="top_right" />
+    <rect
+       style="fill:#616bdd;fill-opacity:1;stroke:#000000;stroke-width:1.41732;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1650"
+       width="43.77174"
+       height="43.77174"
+       x="68.114128"
+       y="68.114128"
+       inkscape:label="center" />
+    <rect
+       style="fill:#616bdd;fill-opacity:1;stroke:#000000;stroke-width:1.41732;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1652"
+       width="43.77174"
+       height="43.77174"
+       x="68.114128"
+       y="113.11413"
+       inkscape:label="center_bottom" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect10179"
+       width="15.999999"
+       height="59.999996"
+       x="124"
+       y="96"
+       inkscape:label="plus" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect13986"
+       width="60"
+       height="15.999999"
+       x="102"
+       y="118"
+       inkscape:label="plus" />
+  </g>
+  <metadata
+     id="metadata5972">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>TiledMapEditor </dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
