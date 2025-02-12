@@ -9,3 +9,5 @@ static func compile_world(raw_text:String,source_file:String):
 			printerr(err)
 		return null
 	return compilation
+static func compile_map(source_file:String):
+	return
