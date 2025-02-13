@@ -58,3 +58,7 @@ static func get_right_typed_value(type: String, val: String):
 		return val
 	else:
 		return val
+static func get_relative(source_file:String,target:String):
+	var _base_path = source_file.get_base_dir()
+	var _dest_path = _base_path.path_join(target)
+	return _dest_path
