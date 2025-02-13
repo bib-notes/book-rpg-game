@@ -1,0 +1,2215 @@
+{
+  "frames": [
+	{
+	  "filename": "Iron Key",
+	  "frame": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Apple",
+	  "frame": {
+		"x": 32,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Axe",
+	  "frame": {
+		"x": 0,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Bag",
+	  "frame": {
+		"x": 32,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Beer",
+	  "frame": {
+		"x": 64,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Belt",
+	  "frame": {
+		"x": 64,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Book 2",
+	  "frame": {
+		"x": 0,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Book 3",
+	  "frame": {
+		"x": 32,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Book",
+	  "frame": {
+		"x": 64,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Bow",
+	  "frame": {
+		"x": 96,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Bread",
+	  "frame": {
+		"x": 96,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Candle",
+	  "frame": {
+		"x": 96,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Cheese",
+	  "frame": {
+		"x": 0,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Chest",
+	  "frame": {
+		"x": 32,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Coal",
+	  "frame": {
+		"x": 64,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Copper Coin",
+	  "frame": {
+		"x": 96,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Copper Ingot",
+	  "frame": {
+		"x": 128,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Copper Nugget",
+	  "frame": {
+		"x": 128,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Crate",
+	  "frame": {
+		"x": 128,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Crystal",
+	  "frame": {
+		"x": 128,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Cut Emerald",
+	  "frame": {
+		"x": 0,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Cut Ruby",
+	  "frame": {
+		"x": 32,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Cut Sapphire",
+	  "frame": {
+		"x": 64,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Cut Topaz",
+	  "frame": {
+		"x": 96,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Diamond",
+	  "frame": {
+		"x": 128,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Emerald Staff",
+	  "frame": {
+		"x": 160,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Emerald",
+	  "frame": {
+		"x": 160,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Envolop",
+	  "frame": {
+		"x": 160,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Fabric",
+	  "frame": {
+		"x": 160,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Fish Steak",
+	  "frame": {
+		"x": 160,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Gear",
+	  "frame": {
+		"x": 0,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Gold Nugget",
+	  "frame": {
+		"x": 32,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Golden Coin",
+	  "frame": {
+		"x": 64,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Golden Ingot",
+	  "frame": {
+		"x": 96,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Golden Key",
+	  "frame": {
+		"x": 128,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Golden Sword",
+	  "frame": {
+		"x": 160,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Green Apple",
+	  "frame": {
+		"x": 192,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Ham",
+	  "frame": {
+		"x": 192,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Hammer",
+	  "frame": {
+		"x": 192,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Heart",
+	  "frame": {
+		"x": 192,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Helm",
+	  "frame": {
+		"x": 192,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Iron Armor",
+	  "frame": {
+		"x": 192,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Iron Boot",
+	  "frame": {
+		"x": 0,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Iron Helmet",
+	  "frame": {
+		"x": 32,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Arrow",
+	  "frame": {
+		"x": 64,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Iron Shield",
+	  "frame": {
+		"x": 96,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Iron Sword",
+	  "frame": {
+		"x": 128,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Knife",
+	  "frame": {
+		"x": 160,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Lantern",
+	  "frame": {
+		"x": 192,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Leather Armor",
+	  "frame": {
+		"x": 224,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Leather Boot",
+	  "frame": {
+		"x": 224,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Leather Helmet",
+	  "frame": {
+		"x": 224,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Leather",
+	  "frame": {
+		"x": 224,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Magic Wand",
+	  "frame": {
+		"x": 224,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Map",
+	  "frame": {
+		"x": 224,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Meat",
+	  "frame": {
+		"x": 224,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Mushroom",
+	  "frame": {
+		"x": 0,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Obsidian",
+	  "frame": {
+		"x": 32,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Paper",
+	  "frame": {
+		"x": 64,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Pearl",
+	  "frame": {
+		"x": 96,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Pickaxe",
+	  "frame": {
+		"x": 128,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Rope",
+	  "frame": {
+		"x": 160,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Ruby Staff",
+	  "frame": {
+		"x": 192,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Ruby",
+	  "frame": {
+		"x": 224,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Rune Stone",
+	  "frame": {
+		"x": 256,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Sapphire Staff",
+	  "frame": {
+		"x": 256,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Sapphire",
+	  "frame": {
+		"x": 256,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Scroll",
+	  "frame": {
+		"x": 256,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Shovel",
+	  "frame": {
+		"x": 256,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Silver Coin",
+	  "frame": {
+		"x": 256,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Silver Ingot",
+	  "frame": {
+		"x": 256,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Silver Key",
+	  "frame": {
+		"x": 256,
+		"y": 224,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Silver Nugget",
+	  "frame": {
+		"x": 0,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Silver Sword",
+	  "frame": {
+		"x": 32,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "String",
+	  "frame": {
+		"x": 64,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Topaz Staff",
+	  "frame": {
+		"x": 96,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Topaz",
+	  "frame": {
+		"x": 128,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Torch",
+	  "frame": {
+		"x": 160,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wine 2",
+	  "frame": {
+		"x": 192,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wine",
+	  "frame": {
+		"x": 224,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wizard Hat",
+	  "frame": {
+		"x": 256,
+		"y": 256,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wood Log",
+	  "frame": {
+		"x": 288,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wooden Armor",
+	  "frame": {
+		"x": 288,
+		"y": 32,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wooden Plank",
+	  "frame": {
+		"x": 288,
+		"y": 64,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wooden Shield",
+	  "frame": {
+		"x": 288,
+		"y": 96,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wooden Staff",
+	  "frame": {
+		"x": 288,
+		"y": 128,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wooden Sword",
+	  "frame": {
+		"x": 288,
+		"y": 160,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	},
+	{
+	  "filename": "Wool",
+	  "frame": {
+		"x": 288,
+		"y": 192,
+		"w": 32,
+		"h": 32
+	  },
+	  "rotated": false,
+	  "trimmed": false,
+	  "spriteSourceSize": {
+		"x": 0,
+		"y": 0,
+		"w": 32,
+		"h": 32
+	  },
+	  "sourceSize": {
+		"w": 32,
+		"h": 32
+	  },
+	  "pivot": {
+		"x": 0.5,
+		"y": 0.5
+	  }
+	}
+  ],
+  "meta": {
+	"app": "http://free-tex-packer.com",
+	"version": "0.6.7",
+	"image": "ui-assets-2.png",
+	"format": "RGBA8888",
+	"size": {
+	  "w": 320,
+	  "h": 288
+	},
+	"scale": 1
+  }
+}
