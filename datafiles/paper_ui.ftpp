@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "C:\\Users\\eVmPr\\Documents\\godot_projects\\book-rpg-game\\datafiles\\textures",
+  "images": [],
+  "folders": [
+    "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/datafiles/ui_images"
+  ],
+  "packOptions": {
+    "textureName": "paper_ui_textures",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "Godot (atlas)",
+    "fileName": "pack-result",
+    "savePath": "C:\\Users\\eVmPr\\Documents\\godot_projects\\book-rpg-game\\datafiles\\textures",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": false,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}
