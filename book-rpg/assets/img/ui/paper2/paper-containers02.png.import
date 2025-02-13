@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr4q5rnfh5lrk"
-path="res://.godot/imported/holder06.png-4d9210017a445a3ca5dd653b93b58408.ctex"
+uid="uid://bq6ydrq6u80dl"
+path="res://.godot/imported/paper-containers02.png-5558c96b317b65dab7e3dbdf72c240df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/ui/paper/holder06.png"
-dest_files=["res://.godot/imported/holder06.png-4d9210017a445a3ca5dd653b93b58408.ctex"]
+source_file="res://assets/img/ui/paper2/paper-containers02.png"
+dest_files=["res://.godot/imported/paper-containers02.png-5558c96b317b65dab7e3dbdf72c240df.ctex"]
 
 [params]
 

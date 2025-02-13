@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://e43ym764nl2w"
-path="res://.godot/imported/v_scrollbar_thumb.png-c7cf3d22869f9af5b02e5c5d89d3f3c8.ctex"
+uid="uid://dulitod70hlr2"
+path="res://.godot/imported/book02.png-9724e3354e0f91b87b3cf2c4781a9d45.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/ui/paper/v_scrollbar_thumb.png"
-dest_files=["res://.godot/imported/v_scrollbar_thumb.png-c7cf3d22869f9af5b02e5c5d89d3f3c8.ctex"]
+source_file="res://assets/img/ui/paper2/book02.png"
+dest_files=["res://.godot/imported/book02.png-9724e3354e0f91b87b3cf2c4781a9d45.ctex"]
 
 [params]
 

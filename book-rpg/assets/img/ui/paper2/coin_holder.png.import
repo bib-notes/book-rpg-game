@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://co2cs8n4rqfym"
-path="res://.godot/imported/slider_thumb.png-e3b2be473baeb15b35c03094a5e6f077.ctex"
+uid="uid://cm34co2wou670"
+path="res://.godot/imported/coin_holder.png-c366f066967b3acf3e34ed1d56725f02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/ui/paper/slider_thumb.png"
-dest_files=["res://.godot/imported/slider_thumb.png-e3b2be473baeb15b35c03094a5e6f077.ctex"]
+source_file="res://assets/img/ui/paper2/coin_holder.png"
+dest_files=["res://.godot/imported/coin_holder.png-c366f066967b3acf3e34ed1d56725f02.ctex"]
 
 [params]
 

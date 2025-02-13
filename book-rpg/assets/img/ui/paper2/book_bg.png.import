@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw68q5r8wjfgl"
-path="res://.godot/imported/container_bg02.png-410e10856a8ec15ce6539d3700afcc74.ctex"
+uid="uid://bdf6udkicx35u"
+path="res://.godot/imported/book_bg.png-b7cd7b7c521c7e0c054abca871f14b41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/ui/paper/container_bg02.png"
-dest_files=["res://.godot/imported/container_bg02.png-410e10856a8ec15ce6539d3700afcc74.ctex"]
+source_file="res://assets/img/ui/paper2/book_bg.png"
+dest_files=["res://.godot/imported/book_bg.png-b7cd7b7c521c7e0c054abca871f14b41.ctex"]
 
 [params]
 

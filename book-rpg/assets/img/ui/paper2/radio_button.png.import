@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jg265y072yx2"
-path="res://.godot/imported/book03.png-81ceda5cf53636b1e47ff8a4b0a6b528.ctex"
+uid="uid://d157277bw8wog"
+path="res://.godot/imported/radio_button.png-466c7425fc4f33ec37414cd64cce19cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/ui/paper/book03.png"
-dest_files=["res://.godot/imported/book03.png-81ceda5cf53636b1e47ff8a4b0a6b528.ctex"]
+source_file="res://assets/img/ui/paper2/radio_button.png"
+dest_files=["res://.godot/imported/radio_button.png-466c7425fc4f33ec37414cd64cce19cd.ctex"]
 
 [params]
 

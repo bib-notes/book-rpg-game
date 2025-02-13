@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bx7a2jtp1tgsj"
-path="res://.godot/imported/book01.png-fbbeaed76ec720516616d4ab4c5d83f1.ctex"
+uid="uid://ihshtm2opor8"
+path="res://.godot/imported/slider_tick.png-8d9ab5839cfc2295ca3f58ef04b0a582.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/ui/paper/book01.png"
-dest_files=["res://.godot/imported/book01.png-fbbeaed76ec720516616d4ab4c5d83f1.ctex"]
+source_file="res://assets/img/ui/paper2/slider_tick.png"
+dest_files=["res://.godot/imported/slider_tick.png-8d9ab5839cfc2295ca3f58ef04b0a582.ctex"]
 
 [params]
 
