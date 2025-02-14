@@ -1,4 +1,4 @@
-class_name SlotUI extends Button
+class_name SlotUI extends TextureButton
 @onready var item_icon = $ItemIcon
 @onready var num_label =$SlotNum
 @onready var amount_label = $ItemAmount
