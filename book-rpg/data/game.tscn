@@ -1,6 +1,6 @@
-[gd_scene load_steps=10 format=3 uid="uid://dfgiaercuq6pa"]
+[gd_scene load_steps=11 format=3 uid="uid://dfgiaercuq6pa"]
 
-[ext_resource type="Script" path="res://scripts/ui/canvas_layer.gd" id="2_qsx34"]
+[ext_resource type="Script" path="res://scripts/ui/ui_layer.gd" id="2_qsx34"]
 [ext_resource type="PackedScene" uid="uid://x2rcwbdm3fag" path="res://data/ui/dialogue_ui.tscn" id="3_hlq80"]
 [ext_resource type="PackedScene" uid="uid://coqlw2g81eb2i" path="res://data/ui/main_ui.tscn" id="4_ob0q5"]
 [ext_resource type="Theme" uid="uid://c0nqwolk0fyua" path="res://data/styles/paper.tres" id="5_8m5cg"]
@@ -8,6 +8,7 @@
 [ext_resource type="Script" path="res://addons/tiled_plugin/lib/world/tiled_world.gd" id="6_bco25"]
 [ext_resource type="PackedScene" uid="uid://dhx17sjqje1ov" path="res://data/ui/map_ui.tscn" id="7_m1usd"]
 [ext_resource type="Resource" uid="uid://cttgml568u7ru" path="res://assets/map/debug.world" id="8_nqs5g"]
+[ext_resource type="Script" path="res://addons/tiled_plugin/lib/world/world_node.gd" id="9_fkdht"]
 
 [sub_resource type="Environment" id="Environment_4r4u4"]
 background_mode = 1
@@ -19,6 +20,7 @@ unique_name_in_owner = true
 script = ExtResource("2_qsx34")
 
 [node name="DialogueUI" parent="UI" instance=ExtResource("3_hlq80")]
+unique_name_in_owner = true
 visible = false
 
 [node name="MainUI" parent="UI" instance=ExtResource("4_ob0q5")]
@@ -65,3 +67,6 @@ text = "button
 environment = SubResource("Environment_4r4u4")
 script = ExtResource("6_bco25")
 world = ExtResource("8_nqs5g")
+
+[node name="WorldNode" type="Node2D" parent="TiledWorld"]
+script = ExtResource("9_fkdht")

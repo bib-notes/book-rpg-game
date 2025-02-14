@@ -18,8 +18,8 @@ config/icon="res://assets/img/favicon.png"
 [autoload]
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
-GameManager="*res://scripts/GameManager.gd"
-WorldManager="*res://addons/tiled_plugin/lib/WorldManager.gd"
+GameManager="*res://scripts/game_manager.gd"
+WorldManager="*res://addons/tiled_plugin/lib/world_manager.gd"
 
 [editor_plugins]
 

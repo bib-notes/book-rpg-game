@@ -1,7 +1,7 @@
 @icon("../../assets/icon.svg")
 @tool
-## use this node to store your maps
 class_name WorldNode extends Node2D
+## use this node to store your maps
 
 @export var maps:Array[TiledMap] = []
 

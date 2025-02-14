@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=41 format=3 uid="uid://c0nqwolk0fyua"]
+[gd_resource type="Theme" load_steps=42 format=3 uid="uid://c0nqwolk0fyua"]
 
 [ext_resource type="StyleBox" uid="uid://blkfieipd301m" path="res://data/styles/paper/button01_normal.tres" id="1_sp4vl"]
 [ext_resource type="FontFile" uid="uid://dfywf3vxjig6n" path="res://assets/fonts/Rosarivo-Regular.ttf" id="1_t4st1"]
@@ -10,10 +10,10 @@
 [ext_resource type="StyleBox" uid="uid://bv2jwylx7wml8" path="res://data/styles/paper/flat_style_primary.tres" id="8_5fvt5"]
 [ext_resource type="Texture2D" uid="uid://b20kw8uk8us4w" path="res://assets/img/ui/paper.sprites/checkbox.tres" id="8_8lqu0"]
 [ext_resource type="Texture2D" uid="uid://bqwvkknrf1eu1" path="res://assets/img/ui/paper.sprites/slider_thumb.tres" id="9_su55p"]
-[ext_resource type="StyleBox" uid="uid://jgfsvq37veb4" path="res://data/styles/paper/input_text_style.tres" id="10_bbxjj"]
 [ext_resource type="Texture2D" uid="uid://cwx4pud6kp7as" path="res://assets/img/ui/paper.sprites/slider_thumb_disabled.tres" id="10_d27cq"]
 [ext_resource type="Texture2D" uid="uid://dcgcks60dvo2s" path="res://assets/img/ui/paper.sprites/slider_thumb_highlight.tres" id="11_66ymt"]
 [ext_resource type="Texture2D" uid="uid://d0tw1gllkgss6" path="res://assets/img/ui/paper.sprites/slider_tick.tres" id="12_qidou"]
+[ext_resource type="Texture2D" uid="uid://c7pa2epa0nj8b" path="res://assets/img/ui/paper.sprites/tab01.tres" id="13_xwujl"]
 [ext_resource type="StyleBox" uid="uid://dcb3vrtyaofkw" path="res://data/styles/paper/selected_tab.tres" id="15_304h0"]
 [ext_resource type="Texture2D" uid="uid://cvq324awxlqmk" path="res://assets/img/ui/paper.sprites/up_down.tres" id="15_m5mn3"]
 [ext_resource type="StyleBox" uid="uid://miwwhis8083d" path="res://data/styles/paper/panel01.tres" id="15_ojqi4"]
@@ -49,6 +49,13 @@ border_width_bottom = 5
 border_color = Color(0.807843, 0.72549, 0.478431, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_40wne"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ty6ds"]
+texture = ExtResource("13_xwujl")
+texture_margin_left = 8.0
+texture_margin_top = 8.0
+texture_margin_right = 8.0
+texture_margin_bottom = 8.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8eoec"]
 
@@ -112,7 +119,7 @@ LineEdit/colors/font_selected_color = Color(0.92549, 0.866667, 0.752941, 1)
 LineEdit/colors/selection_color = Color(0.0509804, 0.564706, 0.407843, 1)
 LineEdit/icons/clear = ExtResource("16_a2go6")
 LineEdit/styles/focus = SubResource("StyleBoxEmpty_40wne")
-LineEdit/styles/normal = ExtResource("10_bbxjj")
+LineEdit/styles/normal = SubResource("StyleBoxTexture_ty6ds")
 PopupMenu/colors/font_color = Color(0.0509804, 0.564706, 0.407843, 1)
 PopupMenu/colors/font_hover_color = Color(0.690196, 0.164706, 0.211765, 1)
 PopupMenu/colors/font_separator_color = Color(0.584314, 0.537255, 0.47451, 1)

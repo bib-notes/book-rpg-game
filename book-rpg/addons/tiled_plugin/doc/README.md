@@ -1,13 +1,18 @@
-# World Manager (YATI extension)
-This plugin works with YATI 
+# Tiled Plugin
+
+**THIS IS NOT IN THE ASSET LIBRARY**
+
+Containes code from another plugin ([YATI](https://godotengine.org/asset-library/asset/1772))
+
 ## Requirements
 Godot Version: 4.3
-Godot Asset **[YATI][yati]**
-**YATI extension is needed for this to work**
+
 This plugin is in the alpha stage, expect bugs.
 
 Features:
-- Importing world file
+	- All features from the YATI plugin
+	- Importing world
+
 TODO:
 	Add World Editor
 	Config Editor to add maps to world, set map location

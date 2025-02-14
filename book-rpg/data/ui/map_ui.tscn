@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dhx17sjqje1ov"]
+[gd_scene load_steps=9 format=3 uid="uid://dhx17sjqje1ov"]
 
 [ext_resource type="Script" path="res://scripts/ui/map_ui.gd" id="1_ni5id"]
 [ext_resource type="Theme" uid="uid://c0nqwolk0fyua" path="res://data/styles/paper.tres" id="1_rvmod"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cj1pbjdlyq80f" path="res://assets/img/ui/paper.sprites/plus.tres" id="5_p7muw"]
 [ext_resource type="PackedScene" uid="uid://dgsppw0nob26a" path="res://data/ui/map_marker.tscn" id="6_h057f"]
 [ext_resource type="Texture2D" uid="uid://r8pr3idtoxxe" path="res://assets/img/ui/map.sprites/marker0.tres" id="7_6ad41"]
+[ext_resource type="PackedScene" uid="uid://bubeqxs6jd78r" path="res://data/ui/marker_window.tscn" id="8_jflci"]
 
 [node name="MapUI" type="Control"]
 layout_mode = 3
@@ -134,61 +135,7 @@ focus_mode = 0
 icon = ExtResource("5_p7muw")
 icon_alignment = 1
 
-[node name="MarkerWindow" type="Window" parent="."]
-transparent_bg = true
-snap_2d_transforms_to_pixel = true
-title = "Edit Marker"
-position = Vector2i(250, 249)
-size = Vector2i(350, 100)
-visible = false
-wrap_controls = true
-theme = ExtResource("1_rvmod")
-
-[node name="MarginContainer" type="MarginContainer" parent="MarkerWindow"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_constants/margin_left = 5
-theme_override_constants/margin_top = 5
-theme_override_constants/margin_right = 5
-theme_override_constants/margin_bottom = 5
-
-[node name="VBoxContainer" type="VBoxContainer" parent="MarkerWindow/MarginContainer"]
-layout_mode = 2
-
-[node name="Label" type="Label" parent="MarkerWindow/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "Label: "
-
-[node name="MarkerLabelEdit" type="LineEdit" parent="MarkerWindow/MarginContainer/VBoxContainer/Label"]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -256.0
-offset_bottom = 25.0
-grow_horizontal = 0
-placeholder_text = "Marker Label"
-
-[node name="Label2" type="Label" parent="MarkerWindow/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "Label Color"
-
-[node name="OptionButton" type="ColorPickerButton" parent="MarkerWindow/MarginContainer/VBoxContainer/Label2"]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -30.0
-offset_bottom = 28.0
-grow_horizontal = 0
-focus_mode = 0
-text = "Color"
-edit_alpha = false
+[node name="MarkerWindow" parent="." instance=ExtResource("8_jflci")]
 
 [node name="MapOptions" type="PopupMenu" parent="."]
 item_count = 2
