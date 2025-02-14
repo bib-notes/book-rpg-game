@@ -1,0 +1,17 @@
+[remap]
+
+importer="Tiled World Importer"
+type="Resource"
+uid="uid://cttgml568u7ru"
+path="res://.godot/imported/debug.world-e8fde9fa126eec60a53cafd2b3f24263.tres"
+
+[deps]
+
+source_file="res://assets/map/debug.world"
+dest_files=["res://.godot/imported/debug.world-e8fde9fa126eec60a53cafd2b3f24263.tres"]
+
+[params]
+
+defaults=true
+custom_properties=false
+map_pattern_enabled=false
