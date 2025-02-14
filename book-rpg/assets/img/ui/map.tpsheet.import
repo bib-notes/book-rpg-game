@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://cdyhadegtaidc"
+path="res://.godot/imported/map.tpsheet-2b13f9438fb91a098c65e0d07b53ce94.res"
+
+[deps]
+
+files=["res://assets/img/ui/map.sprites/marker0.tres", "res://assets/img/ui/map.sprites/marker01.tres"]
+
+source_file="res://assets/img/ui/map.tpsheet"
+dest_files=["res://.godot/imported/map.tpsheet-2b13f9438fb91a098c65e0d07b53ce94.res", "res://assets/img/ui/map.sprites/marker0.tres", "res://assets/img/ui/map.sprites/marker01.tres"]
+
+[params]
+

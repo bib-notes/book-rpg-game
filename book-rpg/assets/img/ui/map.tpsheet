@@ -1,0 +1,48 @@
+{
+	"textures": [
+		{
+			"image": "map.png",
+			"size": {
+				"w": 16,
+				"h": 64
+			},
+			"sprites": [
+				{
+					"filename": "marker0",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "marker01",
+					"region": {
+						"x": 0,
+						"y": 32,
+						"w": 16,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"format": "RGBA8888",
+	}
+}

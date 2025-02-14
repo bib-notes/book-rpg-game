@@ -1,0 +1,693 @@
+{
+	"textures": [
+		{
+			"image": "paper.png",
+			"size": {
+				"w": 368,
+				"h": 352
+			},
+			"sprites": [
+				{
+					"filename": "profile_icon.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 112,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "container_bg05.png",
+					"region": {
+						"x": 112,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "container_bg04.png",
+					"region": {
+						"x": 112,
+						"y": 96,
+						"w": 96,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "container_bg03.png",
+					"region": {
+						"x": 0,
+						"y": 112,
+						"w": 96,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "container_bg02.png",
+					"region": {
+						"x": 208,
+						"y": 0,
+						"w": 96,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "container_bg01.png",
+					"region": {
+						"x": 208,
+						"y": 96,
+						"w": 96,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "book01.png",
+					"region": {
+						"x": 96,
+						"y": 192,
+						"w": 64,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "book02.png",
+					"region": {
+						"x": 0,
+						"y": 208,
+						"w": 64,
+						"h": 80
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "button01.png",
+					"region": {
+						"x": 160,
+						"y": 192,
+						"w": 57,
+						"h": 88
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tab01.png",
+					"region": {
+						"x": 217,
+						"y": 192,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tab01_highlighted.png",
+					"region": {
+						"x": 64,
+						"y": 272,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tab01_plain.png",
+					"region": {
+						"x": 0,
+						"y": 288,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tab01_selected.png",
+					"region": {
+						"x": 217,
+						"y": 256,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tab02.png",
+					"region": {
+						"x": 128,
+						"y": 280,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "book03.png",
+					"region": {
+						"x": 281,
+						"y": 192,
+						"w": 64,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder06.png",
+					"region": {
+						"x": 281,
+						"y": 240,
+						"w": 48,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder08.png",
+					"region": {
+						"x": 281,
+						"y": 288,
+						"w": 46,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder08_highlight.png",
+					"region": {
+						"x": 304,
+						"y": 0,
+						"w": 46,
+						"h": 46
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "coins01.png",
+					"region": {
+						"x": 192,
+						"y": 320,
+						"w": 51,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder07.png",
+					"region": {
+						"x": 327,
+						"y": 288,
+						"w": 36,
+						"h": 36
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder07_highlight.png",
+					"region": {
+						"x": 329,
+						"y": 240,
+						"w": 36,
+						"h": 36
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder05_selected.png",
+					"region": {
+						"x": 243,
+						"y": 320,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder05.png",
+					"region": {
+						"x": 64,
+						"y": 208,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder4.png",
+					"region": {
+						"x": 64,
+						"y": 240,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "radio_button_checked.png",
+					"region": {
+						"x": 304,
+						"y": 46,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "holder03.png",
+					"region": {
+						"x": 336,
+						"y": 46,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "radio_button.png",
+					"region": {
+						"x": 304,
+						"y": 78,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "progress_bar_outline.png",
+					"region": {
+						"x": 64,
+						"y": 336,
+						"w": 48,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "progress_bar_fill01.png",
+					"region": {
+						"x": 275,
+						"y": 334,
+						"w": 48,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "checkbox_checked.png",
+					"region": {
+						"x": 192,
+						"y": 280,
+						"w": 24,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "checkbox.png",
+					"region": {
+						"x": 327,
+						"y": 324,
+						"w": 24,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "v_scrollbar_thumb.png",
+					"region": {
+						"x": 350,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "home.png",
+					"region": {
+						"x": 112,
+						"y": 336,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "plus.png",
+					"region": {
+						"x": 192,
+						"y": 304,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "slider_thumb_disabled.png",
+					"region": {
+						"x": 351,
+						"y": 324,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "slider_thumb_highlight.png",
+					"region": {
+						"x": 96,
+						"y": 112,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "button03.png",
+					"region": {
+						"x": 96,
+						"y": 128,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "x-icon.png",
+					"region": {
+						"x": 96,
+						"y": 144,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "check-icon.png",
+					"region": {
+						"x": 96,
+						"y": 160,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "cancel.png",
+					"region": {
+						"x": 96,
+						"y": 176,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "button03_pressed.png",
+					"region": {
+						"x": 336,
+						"y": 78,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "slider_thumb.png",
+					"region": {
+						"x": 352,
+						"y": 78,
+						"w": 16,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "up_down.png",
+					"region": {
+						"x": 336,
+						"y": 94,
+						"w": 12,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "h_scrollbar_thumb.png",
+					"region": {
+						"x": 128,
+						"y": 272,
+						"w": 26,
+						"h": 5
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "slider_tick.png",
+					"region": {
+						"x": 208,
+						"y": 304,
+						"w": 5,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7",
+		"format": "RGBA8888",
+	}
+}
