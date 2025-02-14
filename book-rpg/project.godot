@@ -11,12 +11,30 @@ config_version=5
 [application]
 
 config/name="book-rpg"
+run/main_scene="res://data/game.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://assets/img/favicon.png"
+
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+GameManager="*res://scripts/GameManager.gd"
+WorldManager="*res://addons/tiled_plugin/lib/WorldManager.gd"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/inventory-system/plugin.cfg", "res://addons/tiled_plugin/plugin.cfg")
+enabled=PackedStringArray("res://addons/codeandweb.texturepacker/plugin.cfg", "res://addons/custom_resources/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/inventory-system/plugin.cfg", "res://addons/spritesheet_importer/plugin.cfg", "res://addons/tiled_plugin/plugin.cfg")
+
+[global_group]
+
+entities=""
+markers=""
+
+[importer_defaults]
+
+YATI={
+"tiled_project_file": "res://data/rpg.tiled-project"
+}
 
 [input]
 
@@ -35,6 +53,16 @@ move_left={
 move_right={
 "deadzone": 0.5,
 "events": []
+}
+map_zoom_in={
+"deadzone": 0.5,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":4,"canceled":false,"pressed":false,"double_click":false,"script":null)
+]
+}
+map_zoom_out={
+"deadzone": 0.5,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":5,"canceled":false,"pressed":false,"double_click":false,"script":null)
+, null]
 }
 
 [rendering]

@@ -5,12 +5,12 @@
   "savePath": "C:\\Users\\eVmPr\\Documents\\godot_projects\\book-rpg-game\\book-rpg\\assets\\img\\ui",
   "images": [],
   "folders": [
-    "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/datafiles/paper"
+    "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/datafiles/map"
   ],
   "packOptions": {
-    "textureName": "paper",
+    "textureName": "map",
     "textureFormat": "png",
-    "removeFileExtension": false,
+    "removeFileExtension": true,
     "prependFolderName": false,
     "base64Export": false,
     "tinify": false,
@@ -30,7 +30,7 @@
     "allowTrim": false,
     "trimMode": "trim",
     "alphaThreshold": "0",
-    "detectIdentical": false,
+    "detectIdentical": true,
     "packer": "OptimalPacker",
     "packerMethod": "Automatic"
   }
