@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://dpdrfvel52ef1"]
+
+[ext_resource type="FontFile" uid="uid://b0ma4gr7rutvo" path="res://assets/fonts/Pixeletter.ttf" id="1_2kbrn"]
+
+[resource]
+font = ExtResource("1_2kbrn")
+font_size = 14
+font_color = Color(0.0509804, 0.564706, 0.407843, 1)

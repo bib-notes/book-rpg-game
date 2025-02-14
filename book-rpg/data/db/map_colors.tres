@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ColorPalette" load_steps=2 format=3 uid="uid://clk8p7ypiy8ss"]
+
+[ext_resource type="Script" path="res://addons/custom_resources/lib/color/color_palette.gd" id="1_frlrh"]
+
+[resource]
+script = ExtResource("1_frlrh")
+colors = Array[Color]([Color(0, 0, 0, 1)])

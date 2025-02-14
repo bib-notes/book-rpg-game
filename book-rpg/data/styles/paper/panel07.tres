@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://qs66x6ia3qws"]
+
+[ext_resource type="Texture2D" uid="uid://bkdi75ktqemsr" path="res://assets/img/ui/paper.sprites/tab02.tres" id="1_ui7hc"]
+
+[resource]
+texture = ExtResource("1_ui7hc")
+texture_margin_left = 7.0
+texture_margin_top = 7.0
+texture_margin_right = 7.0
+texture_margin_bottom = 7.0

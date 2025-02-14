@@ -1,0 +1,155 @@
+[gd_scene load_steps=9 format=3 uid="uid://coqlw2g81eb2i"]
+
+[ext_resource type="Theme" uid="uid://c0nqwolk0fyua" path="res://data/styles/paper.tres" id="1_up2oi"]
+[ext_resource type="Texture2D" uid="uid://bdf6udkicx35u" path="res://assets/img/ui/book_bg.png" id="1_xdq6f"]
+[ext_resource type="Script" path="res://scripts/ui/main_ui.gd" id="2_grs0u"]
+[ext_resource type="PackedScene" uid="uid://cflu4qr1rs7ig" path="res://data/ui/backpack_ui.tscn" id="4_j1h3x"]
+[ext_resource type="Texture2D" uid="uid://cwp184tgk45ue" path="res://assets/img/ui/paper.sprites/holder05.tres" id="5_h8ajs"]
+[ext_resource type="FontFile" uid="uid://b0ma4gr7rutvo" path="res://assets/fonts/Pixeletter.ttf" id="6_m6cu8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bd7oq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bwjqg"]
+
+[node name="MainUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_up2oi")
+script = ExtResource("2_grs0u")
+
+[node name="BookUI" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_xdq6f")
+
+[node name="Pages" type="HSplitContainer" parent="BookUI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+split_offset = 256
+dragger_visibility = 2
+
+[node name="LeftPage" type="TabContainer" parent="BookUI/Pages"]
+layout_mode = 2
+theme = ExtResource("1_up2oi")
+theme_override_styles/panel = SubResource("StyleBoxEmpty_bd7oq")
+current_tab = 0
+clip_tabs = false
+tabs_visible = false
+
+[node name="BackpackUI" parent="BookUI/Pages/LeftPage" instance=ExtResource("4_j1h3x")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Quests" type="Panel" parent="BookUI/Pages/LeftPage"]
+visible = false
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_bwjqg")
+metadata/_tab_index = 1
+
+[node name="PageTitle" type="Label" parent="BookUI/Pages/LeftPage/Quests"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -128.0
+offset_top = 8.0
+offset_right = 128.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 16
+text = "Quests"
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="BookUI/Pages/LeftPage/Quests"]
+layout_mode = 0
+offset_left = 68.0
+offset_top = 109.0
+offset_right = 184.0
+offset_bottom = 132.0
+text = "Coming Soon..."
+
+[node name="RightPage" type="TabContainer" parent="BookUI/Pages"]
+layout_mode = 2
+theme = ExtResource("1_up2oi")
+theme_override_styles/panel = SubResource("StyleBoxEmpty_bd7oq")
+current_tab = 0
+clip_tabs = false
+tabs_visible = false
+tab_focus_mode = 0
+
+[node name="ItemInfo" type="Panel" parent="BookUI/Pages/RightPage"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_bwjqg")
+metadata/_tab_index = 0
+
+[node name="PageTitle" type="Label" parent="BookUI/Pages/RightPage/ItemInfo"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -128.0
+offset_top = 8.0
+offset_right = 128.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 16
+text = "Item Info"
+horizontal_alignment = 1
+
+[node name="QuestInfo" type="Panel" parent="BookUI/Pages/RightPage"]
+visible = false
+layout_mode = 2
+focus_mode = 2
+metadata/_tab_index = 1
+
+[node name="PageTitle" type="Label" parent="BookUI/Pages/RightPage/QuestInfo"]
+layout_mode = 0
+text = "Quest
+"
+
+[node name="PageTabs" type="TabBar" parent="BookUI"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+offset_top = -53.0
+offset_right = 510.0
+tab_count = 1
+tab_0/title = "INV"
+
+[node name="labelContainer" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -147.0
+offset_bottom = 31.0
+grow_horizontal = 0
+texture = ExtResource("5_h8ajs")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="coins" type="Label" parent="labelContainer"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("6_m6cu8")
+text = "0"
+vertical_alignment = 1

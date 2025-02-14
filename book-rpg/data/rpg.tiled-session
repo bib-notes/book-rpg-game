@@ -1,0 +1,60 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/002.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/002.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 816.6666666666665,
+                "y": 1286.3636363636363
+            }
+        },
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/debug/001.tmx": {
+            "scale": 0.7144791666666667,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 945.4439422656365,
+                "y": 325.4118676191865
+            }
+        },
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/debug/002.tmx": {
+            "scale": 0.7144791666666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -210.64295086747336,
+                "y": 325.4118676191865
+            }
+        },
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/tilesets/grass.xml": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/img/tilesets",
+    "last.worldFilePath": "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map",
+    "loadedWorlds": [
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/debug.world"
+    ],
+    "map.height": 80,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 50,
+    "openFiles": [
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/tilesets/grass.xml",
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/debug/001.tmx",
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/002.tmx"
+    ],
+    "project": "rpg.tiled-project",
+    "recentFiles": [
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/tilesets/grass.xml",
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/debug/001.tmx",
+        "C:/Users/eVmPr/Documents/godot_projects/book-rpg-game/book-rpg/assets/map/002.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://miwwhis8083d"]
+
+[ext_resource type="Texture2D" uid="uid://7btv7so5odd" path="res://assets/img/ui/paper.sprites/container_bg01.tres" id="1_ynvjd"]
+
+[resource]
+texture = ExtResource("1_ynvjd")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0

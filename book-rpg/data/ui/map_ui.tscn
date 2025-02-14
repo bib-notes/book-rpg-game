@@ -1,0 +1,203 @@
+[gd_scene load_steps=8 format=3 uid="uid://dhx17sjqje1ov"]
+
+[ext_resource type="Script" path="res://scripts/ui/map_ui.gd" id="1_ni5id"]
+[ext_resource type="Theme" uid="uid://c0nqwolk0fyua" path="res://data/styles/paper.tres" id="1_rvmod"]
+[ext_resource type="Texture2D" uid="uid://lc3415q0yxko" path="res://assets/img/ui/map_bg.png" id="2_1c4xy"]
+[ext_resource type="Script" path="res://scripts/ui/map_viewport.gd" id="3_tf8lq"]
+[ext_resource type="Texture2D" uid="uid://cj1pbjdlyq80f" path="res://assets/img/ui/paper.sprites/plus.tres" id="5_p7muw"]
+[ext_resource type="PackedScene" uid="uid://dgsppw0nob26a" path="res://data/ui/map_marker.tscn" id="6_h057f"]
+[ext_resource type="Texture2D" uid="uid://r8pr3idtoxxe" path="res://assets/img/ui/map.sprites/marker0.tres" id="7_6ad41"]
+
+[node name="MapUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 1
+theme = ExtResource("1_rvmod")
+script = ExtResource("1_ni5id")
+
+[node name="BG" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -256.0
+offset_top = -257.0
+offset_right = 256.0
+offset_bottom = 257.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_1c4xy")
+region_rect = Rect2(0, 0, 474, 376)
+patch_margin_left = 58
+patch_margin_top = 62
+patch_margin_right = 58
+patch_margin_bottom = 62
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="BG"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 37.0
+offset_top = 56.0
+offset_right = -37.0
+offset_bottom = -56.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MapContainer" type="SubViewportContainer" parent="BG/CenterContainer"]
+clip_contents = true
+layout_mode = 2
+
+[node name="MapViewport" type="SubViewport" parent="BG/CenterContainer/MapContainer"]
+unique_name_in_owner = true
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(416, 416)
+render_target_update_mode = 4
+script = ExtResource("3_tf8lq")
+
+[node name="MapCam" type="Camera2D" parent="BG/CenterContainer/MapContainer/MapViewport"]
+unique_name_in_owner = true
+position = Vector2(100, 100)
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+position_smoothing_speed = 20.0
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+
+[node name="MapNode" type="Node2D" parent="BG/CenterContainer/MapContainer/MapViewport"]
+unique_name_in_owner = true
+
+[node name="MapMarkers" type="CanvasGroup" parent="BG/CenterContainer/MapContainer/MapViewport"]
+unique_name_in_owner = true
+
+[node name="MapMarker" parent="BG/CenterContainer/MapContainer/MapViewport/MapMarkers" instance=ExtResource("6_h057f")]
+self_modulate = Color(1, 1, 1, 0)
+position = Vector2(250, 50)
+
+[node name="MapCursor" type="Marker2D" parent="BG/CenterContainer/MapContainer/MapViewport"]
+unique_name_in_owner = true
+position = Vector2(368, 116)
+
+[node name="highlightor" type="TextureRect" parent="BG/CenterContainer/MapContainer/MapViewport/MapCursor"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_6ad41")
+stretch_mode = 5
+
+[node name="HScrollBar" type="HScrollBar" parent="BG/CenterContainer/MapContainer"]
+layout_mode = 2
+step = 12.0
+page = 5.0
+allow_greater = true
+custom_step = 5.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="BG"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 16.0
+offset_right = 32.0
+offset_bottom = 40.0
+grow_horizontal = 2
+
+[node name="AddMarkerButton" type="Button" parent="BG/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+icon = ExtResource("5_p7muw")
+icon_alignment = 1
+
+[node name="AddMarkerButton2" type="Button" parent="BG/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+icon = ExtResource("5_p7muw")
+icon_alignment = 1
+
+[node name="MarkerWindow" type="Window" parent="."]
+transparent_bg = true
+snap_2d_transforms_to_pixel = true
+title = "Edit Marker"
+position = Vector2i(250, 249)
+size = Vector2i(350, 100)
+visible = false
+wrap_controls = true
+theme = ExtResource("1_rvmod")
+
+[node name="MarginContainer" type="MarginContainer" parent="MarkerWindow"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarkerWindow/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarkerWindow/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Label: "
+
+[node name="MarkerLabelEdit" type="LineEdit" parent="MarkerWindow/MarginContainer/VBoxContainer/Label"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -256.0
+offset_bottom = 25.0
+grow_horizontal = 0
+placeholder_text = "Marker Label"
+
+[node name="Label2" type="Label" parent="MarkerWindow/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Label Color"
+
+[node name="OptionButton" type="ColorPickerButton" parent="MarkerWindow/MarginContainer/VBoxContainer/Label2"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -30.0
+offset_bottom = 28.0
+grow_horizontal = 0
+focus_mode = 0
+text = "Color"
+edit_alpha = false
+
+[node name="MapOptions" type="PopupMenu" parent="."]
+item_count = 2
+item_0/text = "Add Marker"
+item_1/text = "Delete Marker"
+item_1/id = 1
+
+[connection signal="hidden" from="." to="." method="_on_hidden"]
+[connection signal="focus_entered" from="BG/CenterContainer/MapContainer" to="." method="_on_map_focus_entered"]
+[connection signal="gui_input" from="BG/CenterContainer/MapContainer" to="." method="_on_map_input"]
+[connection signal="mouse_entered" from="BG/CenterContainer/MapContainer" to="." method="_on_map_container_mouse_entered"]
+[connection signal="mouse_exited" from="BG/CenterContainer/MapContainer" to="." method="_on_map_container_mouse_exited"]

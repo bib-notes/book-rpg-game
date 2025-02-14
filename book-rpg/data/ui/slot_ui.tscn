@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3 uid="uid://d830c856mmj7"]
+
+[ext_resource type="Texture2D" uid="uid://x0pc4kb5eyjt" path="res://assets/img/ui/paper.sprites/holder07.tres" id="1_aciih"]
+[ext_resource type="Script" path="res://scripts/ui/slot_ui.gd" id="1_nlkcm"]
+[ext_resource type="Texture2D" uid="uid://qaqe28njrubi" path="res://assets/img/ui/paper.sprites/holder07_highlight.tres" id="2_4p7uj"]
+[ext_resource type="LabelSettings" uid="uid://dpdrfvel52ef1" path="res://data/styles/paper/slot_label_settings.tres" id="3_4817l"]
+[ext_resource type="Texture2D" uid="uid://dcpkqw7eoyhpp" path="res://data/resources/slot_placeholdeer.tres" id="3_ngwip"]
+
+[node name="SlotButton" type="TextureButton"]
+offset_right = 48.0
+offset_bottom = 48.0
+texture_normal = ExtResource("1_aciih")
+texture_pressed = ExtResource("2_4p7uj")
+stretch_mode = 1
+script = ExtResource("1_nlkcm")
+
+[node name="ItemIcon" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -4.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ngwip")
+
+[node name="SlotNum" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = -16.0
+offset_right = 20.0
+offset_bottom = -1.0
+grow_horizontal = 2
+text = "0"
+label_settings = ExtResource("3_4817l")
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="ItemAmount" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_right = 20.0
+grow_horizontal = 2
+text = "0"
+label_settings = ExtResource("3_4817l")
+horizontal_alignment = 1
+vertical_alignment = 1

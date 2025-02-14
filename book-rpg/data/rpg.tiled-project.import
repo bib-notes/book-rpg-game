@@ -1,0 +1,17 @@
+[remap]
+
+importer="Tiled World Importer"
+type="Resource"
+uid="uid://bugp1b0y6ntay"
+path="res://.godot/imported/rpg.tiled-project-295cc1d0c25c93cf1a51022b05a8390b.tres"
+
+[deps]
+
+source_file="res://data/rpg.tiled-project"
+dest_files=["res://.godot/imported/rpg.tiled-project-295cc1d0c25c93cf1a51022b05a8390b.tres"]
+
+[params]
+
+defaults=true
+custom_properties=false
+map_pattern_enabled=false

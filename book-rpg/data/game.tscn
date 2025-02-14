@@ -1,6 +1,67 @@
-[gd_scene load_steps=2 format=3 uid="uid://dfgiaercuq6pa"]
+[gd_scene load_steps=10 format=3 uid="uid://dfgiaercuq6pa"]
 
-[ext_resource type="Script" path="res://scripts/GameManager.gd" id="1_covg6"]
+[ext_resource type="Script" path="res://scripts/ui/canvas_layer.gd" id="2_qsx34"]
+[ext_resource type="PackedScene" uid="uid://x2rcwbdm3fag" path="res://data/ui/dialogue_ui.tscn" id="3_hlq80"]
+[ext_resource type="PackedScene" uid="uid://coqlw2g81eb2i" path="res://data/ui/main_ui.tscn" id="4_ob0q5"]
+[ext_resource type="Theme" uid="uid://c0nqwolk0fyua" path="res://data/styles/paper.tres" id="5_8m5cg"]
+[ext_resource type="PackedScene" uid="uid://bhi7qac7qpswg" path="res://data/ui/hotbar_ui.tscn" id="5_h6x81"]
+[ext_resource type="Script" path="res://addons/tiled_plugin/lib/world/tiled_world.gd" id="6_bco25"]
+[ext_resource type="PackedScene" uid="uid://dhx17sjqje1ov" path="res://data/ui/map_ui.tscn" id="7_m1usd"]
+[ext_resource type="Resource" uid="uid://cttgml568u7ru" path="res://assets/map/debug.world" id="8_nqs5g"]
+
+[sub_resource type="Environment" id="Environment_4r4u4"]
+background_mode = 1
 
 [node name="Game" type="Node"]
-script = ExtResource("1_covg6")
+
+[node name="UI" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+script = ExtResource("2_qsx34")
+
+[node name="DialogueUI" parent="UI" instance=ExtResource("3_hlq80")]
+visible = false
+
+[node name="MainUI" parent="UI" instance=ExtResource("4_ob0q5")]
+visible = false
+
+[node name="HotBar" parent="UI" instance=ExtResource("5_h6x81")]
+visible = false
+
+[node name="Control" type="Control" parent="UI"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("5_8m5cg")
+
+[node name="Tree" type="Tree" parent="UI/Control"]
+layout_mode = 0
+offset_right = 189.0
+offset_bottom = 198.0
+column_titles_visible = true
+
+[node name="LineEdit" type="LineEdit" parent="UI/Control/Tree"]
+layout_mode = 0
+offset_right = 67.0625
+offset_bottom = 31.0
+flat = true
+
+[node name="MenuBar" type="MenuBar" parent="UI/Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MenuButton" type="MenuButton" parent="UI/Control/MenuBar"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+text = "button
+"
+
+[node name="MapUI" parent="UI" instance=ExtResource("7_m1usd")]
+
+[node name="TiledWorld" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_4r4u4")
+script = ExtResource("6_bco25")
+world = ExtResource("8_nqs5g")
